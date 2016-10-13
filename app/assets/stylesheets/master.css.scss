@@ -1,5 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Lobster|Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Lobster|Orbitron|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Chewy|Lobster|Orbitron|Satisfy');
+
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -19,6 +25,15 @@
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
 
+}
+
+/* Styling logo foodster */
+.navbar-inverse .navbar-brand {
+  color: #3ACCFC; /* foodster brand color */
+  font-family: 'Chewy', cursive;
+  
+  font-size: 30px;
+  letter-spacing: -0.5px;
 }
 
 /* Adding background image to page */
