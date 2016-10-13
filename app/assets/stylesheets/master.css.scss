@@ -66,6 +66,28 @@
 
 }
 
+/* Pagination color styling */
+.pagination > li > a, .pagination > li > span {
+  background-color: rgba(68,67,73,0.9); 
+  color: white;
+
+}
+
+/* Pagination ... box color */
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+  background-color:  #444448;
+  color: white;
+}
+
+
+/* Pagination current page settings */
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  background-color: #F7B10C;
+  border-color: #F7B10C;
+}
+
+
+
 .navbar-inverse .navbar-nav > li > a {
     color: white;
     transition: all 0.5s ease;
@@ -133,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
 }
+
 
 #map {
   height: 300px;
