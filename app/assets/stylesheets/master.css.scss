@@ -25,6 +25,7 @@
   padding:20px;
 }
 
+/* Form fields edits */
 .form-inputs {
   color: gray;
 }
@@ -36,6 +37,12 @@
   box-shadow: 0px 1px 3px #2a2a2a;
 
 }
+.home_links:hover{
+  color:white!important;
+  text-decoration: none;
+  color: #5c8a36;
+}
+
 
 /* Styling logo foodster */
 .navbar-inverse .navbar-brand {
@@ -68,11 +75,11 @@
 
 /* Adding background image to page */
 body {
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- background: url('gg.png') no-repeat center center fixed;
+   background: url('coffee.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 i{
