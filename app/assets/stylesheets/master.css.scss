@@ -25,6 +25,10 @@
   padding:20px;
 }
 
+.form-inputs {
+  color: gray;
+}
+
 /* Adding background image to navbar */
 .navbar.navbar-inverse {
   background:url('/assets/stardust.png');
@@ -41,8 +45,16 @@
   letter-spacing: -0.5px;
 }
 
+.btn-primary{
+  background-color:#F7B10C
+   }
+
 .nav .navbar-nav {
   color: white;
+}
+
+.form-inputs {
+  color: gray;
 }
 
 .glyphicon{
