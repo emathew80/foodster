@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+
+
+development:
+  <<: *default
+  database: foodster_development
+
+test:
+  <<: *default
+  database: foodster_test
+
+production:
+  <<: *default
+  database: foodster_production
