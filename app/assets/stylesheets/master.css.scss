@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Lobster|Orbitron');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Lobster|Orbitron|Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Chewy|Lobster|Orbitron|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|PT+Sans');
+
+
+
 
 
 .booyah-box {
@@ -30,7 +35,7 @@
 
 /* Styling logo foodster */
 .navbar-inverse .navbar-brand {
-  color: #D9881E; /* foodster brand color */
+  color: #F7B10C; /* foodster brand color */
   font-family: 'Chewy', cursive;
   font-size: 30px;
   letter-spacing: -0.5px;
@@ -41,7 +46,7 @@
 }
 
 .glyphicon{
-  color: #D9881E;
+  color: #F7B10C;
   font-size: .75em;
 }
 
@@ -56,6 +61,7 @@ body {
 
 i{
   color: white;
+  font-family: 'Abhaya Libre', serif;
 }
 
 a {
@@ -64,11 +70,13 @@ a {
 
 p{
   color: white;
+  font-family: 'PT Sans', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Chewy', cursive;
-  color: #D9881E;
+  color: #F7B10C;
   margin:0;
   padding:0;
   margin:0;
