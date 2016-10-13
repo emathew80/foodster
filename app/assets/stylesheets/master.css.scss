@@ -29,6 +29,7 @@
     clear: both;
 }
 
+
 .field_with_errors {
   color: #ff3333;
   border-radius: 3px;
@@ -156,8 +157,12 @@ a {
 p{
   color: white;
   font-family: 'PT Sans', sans-serif;
-  font-size: 20px;
+  font-size: 14px;
 
+}
+
+i {
+  font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -178,11 +183,13 @@ blockquote {
 blockquote:before {
   color: #F7B10C;
   content: open-quote;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
+
 
 blockquote p {
   display: inline;
