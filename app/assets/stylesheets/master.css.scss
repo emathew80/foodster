@@ -30,31 +30,45 @@
 
 /* Styling logo foodster */
 .navbar-inverse .navbar-brand {
-  color: #3ACCFC; /* foodster brand color */
+  color: #D9881E; /* foodster brand color */
   font-family: 'Chewy', cursive;
-  
   font-size: 30px;
   letter-spacing: -0.5px;
 }
 
+.nav .navbar-nav {
+  color: white;
+}
+
+.glyphicon{
+  color: #D9881E;
+  font-size: .75em;
+}
+
 /* Adding background image to page */
 body {
-  background: url('/assets/brickwall.png');
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ background: url('gg.png') no-repeat center center fixed;
 }
 
 i{
   color: white;
 }
 
-li{
+a {
   color: white;
 }
 
 p{
   color: white;
 }
+
 h1, h2, h3, h4, h5, h6 {
-  color: #3ACCFC;
+  font-family: 'Chewy', cursive;
+  color: #D9881E;
   margin:0;
   padding:0;
   margin:0;

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'places#index'
+  get 'about', to: 'places#about'
   resources :places
 
 
