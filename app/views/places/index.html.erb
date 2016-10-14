@@ -1,7 +1,12 @@
+
 <% @places.each do |place| %>
   <div class="booyah-box col-xs-10 col-xs-offset-1">
     <h1><%= link_to place.name, place_path(place), :class => 'home_links', :style => 'color: #F7B10C'; %></h1>
     <i><%= place.address %></i><br /><br/>
+    <% if place.photos.present? %>
+          <%= image_tag place.photos.first.picture %>
+    <% end %>
+    &nbsp
     <p><%= place.description %></p>
      <i><% if place.user.present? %>
       <small><%= place.user.email %></small>
