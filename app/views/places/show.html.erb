@@ -3,7 +3,7 @@
   <i><%= @place.address %></i> 
   <p><%= @place.description %></p>
 <% @place.photos.each do |photo| %>
-  <%= image_tag photo.picture %>
+  &nbsp<%= image_tag photo.picture %>
   <%= photo.caption %>
 <% end %>
 

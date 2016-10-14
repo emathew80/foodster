@@ -4,7 +4,7 @@
     <h1><%= link_to place.name, place_path(place), :class => 'home_links', :style => 'color: #F7B10C'; %></h1>
     <i><%= place.address %></i><br /><br/>
     <% if place.photos.present? %>
-          <%= image_tag place.photos.first.picture %>
+         <%= image_tag place.photos.first.picture %>
     <% end %>
     &nbsp
     <p><%= place.description %></p>
