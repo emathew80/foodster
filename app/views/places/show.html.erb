@@ -38,9 +38,9 @@
 
 
   <div class="pull-right">
+    <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myPhotoModal">Add a photo</button>
     <% if current_user && current_user == @place.user %>
         <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
-        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myPhotoModal">Add a photo</button>
     <% end %>
     
   </div>
