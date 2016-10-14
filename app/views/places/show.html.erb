@@ -40,6 +40,7 @@
   <div class="pull-right">
     <% if current_user && current_user == @place.user %>
         <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
+        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myPhotoModal">Add a photo</button>
     <% end %>
     
   </div>
@@ -80,7 +81,7 @@
       <%= simple_form_for @photo, url: place_photos_path(@place) do |f| %>
         <div class="modal-body">
           <%= f.input :picture %>
-          <%= f.input :caption %>
+          
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -109,7 +110,7 @@
 <h1 class="pull-left">Comments</h1>
 <!-- Button trigger modal -->
     <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myModal">Add your thoughts</button>
-    <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#myPhotoModal">Add a photo</button>
+    
 <div class="clear"></div>
 <% @place.comments.each do |comment| %>
   <div>
