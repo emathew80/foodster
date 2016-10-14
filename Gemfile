@@ -22,6 +22,7 @@ gem 'simple_form'
 gem 'devise', '>= 3.2.4'
 gem "geocoder", "1.3.4"
 gem "figaro", ">= 1.0.0"
+gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
