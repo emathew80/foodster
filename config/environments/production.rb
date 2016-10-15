@@ -1,7 +1,7 @@
 Rails.application.configure do
+  config.action_mailer.default_url_options = { host: 'foodster-elson-mathew.herokuapp.com' }
 
-  
-ActionMailer::Base.smtp_settings = {
+  ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
     :port           => '587',
     :authentication => :plain,
@@ -10,6 +10,7 @@ ActionMailer::Base.smtp_settings = {
     :domain         => 'heroku.com',
     :enable_starttls_auto => true
     }
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
