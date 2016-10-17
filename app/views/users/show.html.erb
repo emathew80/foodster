@@ -48,9 +48,7 @@
     <i><%= place.address %></i><br />
     <p><%= place.description %></p><br />
 
-    <% if place.user.present? %>
-      <small><i><%= place.user.email %></small>
-    <% end %></i>
+   
 
     <% if place.comments.present? %>
       <div class="col-xs-12">
@@ -65,7 +63,6 @@
     <% end %>
   </div>
 <% end %>
-</small>
 
 
 
