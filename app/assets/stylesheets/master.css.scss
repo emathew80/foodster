@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Chewy|Lobster|Orbitron|Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
 @import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 
 
@@ -44,6 +45,13 @@
 .size_glyph {
   width: 40px;
   height: 40px;
+}
+
+.user_page_text {
+  color: white; 
+  font-family: 'Inconsolata', monospace;
+
+
 }
 
 .carousel-caption {
